@@ -17,7 +17,6 @@ MJ23R2 is an R-based financial analytics framework designed to evaluate:
 
 This project demonstrates end-to-end analytical thinking:
 data → risk signals → governance decisioning.
-
 ## Key Output
 
 - Financial Integrity Index (0–100)
