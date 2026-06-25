@@ -48,34 +48,29 @@ Each layer builds structured intelligence from raw financial inputs.
 Core Modules
 1. Variance & Detection Layer
 Measures deviation between reported and verified financial values and tracks instability over time.
-Key outputs:
-Variance Score
-Incidence Rate
+
 Trend Shift Detection
 2. Operational Intelligence Layer
 Evaluates reporting behavior and process consistency.
-Key outputs:
-Consistency Score
+
 Liability Risk Signal
 Negotiator Risk Indicator
 Process Control Failure Patterns
 3. Settlement Intelligence Layer
 Assesses quality of financial settlements beyond completion status.
-Key outputs:
-Settlement Achievement Rate
-Settlement Efficiency Score
-Settlement Distortion Indicator
-Backlog Risk
+
 4. Litigation Exposure Layer
 Estimates exposure risk signals associated with:
 High variance conditions
 Elevated incidence rates
 Settlement distortion patterns
+
 5. Escalation Engine
 Applies rule-based amplification:
 Double Trigger (moderate escalation)
 Triple Trigger (high escalation)
 Fraud Risk Indicator (0–100 risk scale)
+
 6. Governance Layer
 Aggregates system outputs into a unified risk metric:
 Financial Integrity Index (FII)
@@ -83,9 +78,13 @@ A composite score representing overall governance risk exposure.
 Bands:
 
 0–25 → Low Risk
+
 26–50 → Moderate Risk
+
 51–75 → High Risk
+
 76–100 → Critical Risk
+
 7. Post-Settlement Re-Exposure Layer
 Detects when previously closed settlements are:
 Reopened
@@ -93,17 +92,7 @@ Disputed
 Legally reversed
 Financially re-evaluated
 This layer recalculates risk after “closure.”
-Outputs
-The framework generates:
-Variance Score
-Settlement Distortion Indicator
-Litigation Exposure Indicator
-Fraud Risk Indicator (risk signal only)
-Financial Integrity Index (FII)
-Governance Priority Level
-Root Cause Risk Classification
-Re-Exposure Risk Flag
-Technical Implementation
+
 Built using:
 R (core language)
 Functional programming design
